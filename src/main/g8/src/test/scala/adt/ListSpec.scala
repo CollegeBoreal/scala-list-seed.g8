@@ -12,7 +12,7 @@ class ListSpec extends FlatSpec with Matchers {
     List.sum(List(1, 2, 3)) shouldEqual 6
   }
 
-  "le produit" should "afficher 0" in {
+  "le produit" should "afficher 6.0" in {
     List.product(List(1.0, 2.0, 3.0)) shouldEqual 6.0
   }
 
